@@ -31,6 +31,9 @@ public interface Checker {
    * @param payload the payload component of a JsonToken (JWT)
    * @throws SignatureException if the audience doesn't match.
    */
-  public void check(JsonObject payload) throws SignatureException;
+  
+	
+	
+	public void check(JsonObject payload) throws SignatureException;
 
 }
